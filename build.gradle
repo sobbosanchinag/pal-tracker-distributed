@@ -1,4 +1,4 @@
-import io.pivotal.pal.tracker.gradlebuild.DependenciesGraphPlugin
+import io.pivotal.pal.tracker.gradlebuild.*
 
 
 buildscript {
@@ -15,8 +15,9 @@ buildscript {
         junitVersion = "4.12"
         okhttpVersion = "3.12.0"
         jsonPathVersion = "2.4.0"
-        springCloudVersion = "Finchley.RELEASE"
-        springCloudServicesClientLibrariesVersion = "2.0.6.RELEASE"
+        springCloudVersion = "Finchley.SR2"
+        springCloudServicesClientLibrariesVersion = "2.0.2.RELEASE"
+        springCloudCommonsVersion = "2.0.0.RELEASE"
     }
 
     repositories {
